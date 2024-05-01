@@ -1,0 +1,470 @@
+/* reset css */
+* {
+    border: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+
+.men {
+    border: none;
+    background-color: navy;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: skyblue;
+    font-size: 30px;
+    padding-left: 30px;
+
+
+}
+
+.nav-link {
+    color: white;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 40px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.nav-link:hover {
+    color: skyblue;
+    text-decoration: underline;
+
+}
+
+.hero-section {
+
+    border: 1px red;
+    display: flex;
+    margin: 0 60px;
+    margin: 30px 60px;
+}
+
+.left-hero-section {
+    /* border: 1px solid blue;  */
+    width: 50%;
+    height: 521px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right-hero-section {
+    background-image: url("hero-picture.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid green;
+    width: 50%;
+    height: 521px
+}
+
+.hero-text {
+    font-size: 50px;
+}
+
+.hero-p {
+    font-size: 22px;
+    color: gray;
+}
+
+.hero-link {
+    color: gray;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.hero-btn {
+    border: 1px solid black;
+    padding: 15px 20px;
+    border-radius: 8px;
+    color: black;
+    display: inline-block;
+    margin-bottom: 10px;
+
+}
+
+.btn-1 {
+    background-color: #B00000;
+    color: white;
+    border: none;
+    margin-right: 15px;
+
+}
+
+.btn-1:hover {
+    background-color: green;
+
+}
+
+.btn-2:hover {
+    background-color: navy;
+    color: white;
+}
+
+.hero-link:hover {
+    color: red;
+    border-bottom: solid 1.5px;
+    padding-bottom: 2px;
+}
+
+/* Hosting section styling */
+
+
+
+.top-hosting-section {
+    display: flex;
+    margin-top: 5px;
+}
+
+.left-top-hosting {
+    /* border: 1px solid red; */
+    width: 50%;
+    margin-left: 50px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0;
+    margin-top: 0;
+
+}
+
+.right-top-hosting {
+    /* border: 1px solid blue; */
+    width: 50%;
+    margin-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 5px;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+.hosting-h-text {
+    font-size: 48px;
+    font-weight: 800px;
+    margin-bottom: 20px;
+}
+
+.hosting-p-text {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.logo-image {
+    display: block;
+}
+
+.bottom-hosting-section {
+    display: flex;
+    margin-top: 50px;
+}
+
+.hosting-bottom-card {
+    /* border: 1px solid purple; */
+    text-align: center;
+    margin: 0 20px;
+}
+
+/* Styling for packages section */
+
+.packages-section {
+    border: 1px solid red;
+    margin: 0 60px;
+}
+
+.packages-h-text {
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.packages-p-text {
+    font-size: 25px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.packages-subscription {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    /* border: 1px solid green; */
+    width: 350px;
+    margin: 0 auto;
+}
+
+.subscription-span {
+    font-size: 10px;
+    background-color: #FFE87A;
+    height: 24px;
+    width: 87px;
+    /* padding: 3px 5px; */
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscription {
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    width: 856px;
+    margin: 50px auto 35px;
+}
+
+.subscription>p {
+    width: 428px;
+    text-align: center;
+}
+
+.subscription>p:first-child {
+    border-bottom: 4px solid red;
+}
+
+.subscription>p:last-child {
+    border-bottom: 4px solid #C4C4C4;
+}
+
+.packages-card {
+    width: 300px;
+    border: 1px solid #C4C4C4;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.bottom-packages {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.packages-card>h3 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.packages-card>.packages-card-description {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    margin: 10px 0 15px;
+}
+
+.packages-card>.subscription-price {
+    font-size: 14px;
+}
+
+.packages-card>.subscription-price>span {
+    font-size: 42px;
+    font-weight: 600
+}
+
+.packages-card>.packages-btn {
+    width: 235px;
+    border: 2px solid black;
+    height: 50px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    margin: 30px 0;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.packages-card>.packages-subscription-list {
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.packages-card>.packages-subscription-list>p {
+    font-weight: 700;
+    color: #808080;
+    display: inline-block;
+    padding: 8px 20px;
+}
+
+/* styling for the review section */
+
+.review-section {
+    margin: 60px 60px;
+    padding: 70px 0;
+}
+
+
+.review-title {
+    /* border: 1px solid pink; */
+    width: 445px;
+    position: relative;
+}
+
+.review-title>img {
+    position: absolute;
+    z-index: -1;
+    top: -60px;
+    left: -90;
+}
+
+.review-title>h2 {
+    font: 48px;
+    padding-bottom: 10px;
+}
+
+.top-review-section {
+    display: flex;
+    width: 915px;
+    border: 1px solid blue;
+    margin: 0 auto;
+}
+
+.top-reviews-section .card-1 {
+    width: 350px;
+    height: 468px;
+}
+
+.top-reviews-section .card-2 {
+    width: 445px;
+    height: 340px;
+    margin-top: 60px;
+}
+
+.left-top-review {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 25px;
+}
+
+.top-reviews-section .card-3 {
+    width: 350px;
+    height: 276px;
+}
+
+.review-card {
+    border: 1px solid gray;
+    padding: 40px 64px;
+    border-radius: 8px;
+    box-shadow: rgb(41, 41, 42, 0.2) 0px 2px 8px 0px
+}
+
+.review-card>p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.bottom-reviews-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-top: 50px;
+}
+
+.left-review {
+    border: 1px solid red;
+    width: 445px;
+    padding: 20px 0 10px
+}
+
+.right-review {
+    display: block;
+
+}
+
+.right-review {
+    border: 1px solid blue;
+    width: 445px;
+    height: 200px;
+}
+
+.right-review>.top-review-logo {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.right-review>.bottom-review-logo {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.left-review>h2 {
+    font-size: 48px;
+
+}
+
+.left-reveiw>p {
+    font-size: 18px;
+}
+
+/* styling the contact section  */
+
+.contact-section {
+    border: 1px solid rgba(176, 0, 0, 1);
+    margin: 60px;
+    padding: 35px 0 50px;
+
+}
+
+.contact-section>h2 {
+    font-size: 64px;
+    text-align: center;
+    padding: 25px 30px;
+
+}
+
+.contact-section>a {
+    text-align: center;
+    display: block;
+    background-color: rgb(red, green, blue);
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 8px;
+    color: white;
+    padding: 10px 0;
+
+}
+
+/* Leave a space here */
+
+/* styling for the footer */
+footer {
+    padding: 40px 60px;
+    background-color: #B00000;
+    color: white;
+}
+
+footer > .top-footer {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+footer>.bottom-footer {
+    border: 1px solid blue;
+    padding: 50px 0, 0;
+}
+
+.top-footer > div:first-child {
+    width: 296px;
+}
+
+.top-footer div a {
+    display: block;
+    color: white;
+}
+
+.top-footer > h4, a {
+    margin-bottom: 20px;
+}
+
+.footer-logo {
+    font-size: 30px;
+  font-weight: 600;
+}
